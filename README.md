@@ -53,3 +53,49 @@ Disfruta de una experiencia de edición fluida e interactiva a través de una in
 
 ## 🛡️ Privacidad & Seguridad
 Al ser una aplicación **Client-Side** (local-first), la edición de video se procesa enteramente en tu ordenador por medio de elementos HTML5, Canvas y MediaRecorder. Ningún byte es enviado a la red, lo que garantiza confidencialidad absoluta sobre tus contenidos multimedia.
+
+---
+
+## 🚀 Instalación y Uso Local
+
+Sigue estos pasos para ejecutar **Clipper** en tu entorno local:
+
+### 📋 Requisitos Previos
+
+* **Node.js** (v18.0 o superior recomendado)
+* Un gestor de paquetes: **pnpm** (recomendado), **npm** o **yarn**
+
+### ⚙️ Pasos de Instalación
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/MiGustoDev/MG.ScreenFlow.git
+   cd MG.ScreenFlow
+   ```
+
+2. **Instalar dependencias:**
+   ```bash
+   pnpm install
+   # o si usas npm:
+   # npm install
+   ```
+
+3. **Iniciar el servidor de desarrollo:**
+   ```bash
+   pnpm dev
+   # o con npm:
+   # npm run dev
+   ```
+
+4. **Abrir en tu navegador:**
+   Visita `http://localhost:5173` (o la URL indicada en tu terminal) para comenzar a editar videos.
+
+---
+
+### 📦 Scripts Disponibles
+
+* `pnpm dev` — Inicia el entorno de desarrollo local con Vite (HMR activado).
+* `pnpm build` — Compila la aplicación optimizada para producción en la carpeta `/dist`.
+* `pnpm preview` — Previsualiza localmente el build de producción.
+* `pnpm typecheck` — Ejecuta la verificación estática de tipos con TypeScript.
+* `pnpm lint` — Analiza el código con ESLint en busca de inconsistencias.
